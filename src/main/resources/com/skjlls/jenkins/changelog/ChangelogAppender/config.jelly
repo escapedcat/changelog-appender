@@ -1,0 +1,10 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+
+	<f:entry field="outputfile" title="Output File">
+		<f:textbox default="CHANGELOG.md" />
+	</f:entry>
+	<f:entry field="versionEnv" title="Where do i find the version number?">
+		<f:textbox default="releaseVersion" />
+	</f:entry>
+
+</j:jelly>
