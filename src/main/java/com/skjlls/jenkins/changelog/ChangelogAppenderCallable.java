@@ -39,7 +39,7 @@ public class ChangelogAppenderCallable implements Callable<String, IOException> 
 		StringBuffer sb = new StringBuffer();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 		
-		sb.append("== "+version+" "+sdf.format(new Date())+"\n");
+		sb.append("#v"+version+" "+sdf.format(new Date())+"\n");
 		if(changes.size()==0) {
 			sb.append("*no changes*\r\n");
 		}
