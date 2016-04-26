@@ -8,4 +8,4 @@ To install this you need to clone and build the project.
 ```
 mvn package
 ```
-When it's done you find a `.hdi` file in the `target` folder which you can install with the *advance* tab in the *Jenkins Plugin Manager*.
+When it's done you find a `.hdi` file in the `target` folder which you can install with the **Advanced** tab in the **Jenkins Plugin Manager**.
